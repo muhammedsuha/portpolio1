@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+}
+nav{
+    background-color: transparent;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position:sticky ;
+    top :0;
+    z-index: 1;
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 10px;
+    
+}
+nav ul li a{
+    margin: 5px;
+    color:brown;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    text-shadow:2px 4px 6px black;
+}
+   video{
+    width: 100%;
+    height: 600px;
+    object-fit: fill;
+   }
+   .overlay{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+   }
+   h1{
+    color: aqua;
+   }
+   h1 :hover{
+color: rgb(226, 446,886);
+text-shadow: 2px 4px 6px black;
+   }
+   span{
+    color:blueviolet;
+    font-size: 50px;
+
+   }
+   #home{height: 1200px;
+display: flex;
+flex-direction: column;
+   }
+   #home::before{
+    content: "suhail";
+    background-image: url(https://skyelitenews.com/wp-content/uploads/2020/08/25-Most-Handsome-Men-Globally-025.jpg);
+height: 100%;
+background-size: cover;
+   }
+   .main{
+    border: 30px inset blue;
+    padding: 10px;
+    display: flex;
+    position: absolute;
+    margin-left: 75%;
+    margin-top: 25%;
+    
+    box-shadow: 2px 4px 6px black
+   }
+   .main :hover{
+    scale: 1.05;
+
+   }
+   h3{
+    color:aqua;
+    background-color: red;
+    font-style: italic;
+    text-align: center;
+
+   }
+   .pic{
+    display: flex;
+   }
+   .pic img:hover{
+    width :400px;
+
+   }
+   .pic h4{
+    color: aqua;
+    text-align: center;
+    font-style: italic;
+    margin-top: 10px;
+
+
+   }
+   .pic{
+    text-align: justify;
+    margin: 10px;
+   }
+.gallery
+{
+    box-shadow: 2px 4px 6px 
+    blueviolet;
+    margin: 20px;
+}
+.gallery img{
+    width: 300px;
+    margin:5px;
+    margin-left: 50px;
+    padding:5px;
+
+}
+.gallery img :hover{
+    scale: 1.05;;
+}
+ h2{
+    background-color: aqua;
+    text-align: center;
+    font-style: italic;
+ }
+ .row{
+    display: flex;
+    margin-top: 5px;
+ }
+ .box{
+    width: 300px;
+    height: 500px;
+    border:3px ridge blueviolet;
+    margin: 5px;
+    background: linear-gradient(to top,rgb(233, 227, 227) 50%,rgb(162,57,207)50%);
+    background-size: 100% 200%;
+    transition: all 1.065s;
+ }
+ .box:hover{
+    background-position: right bottom;
+    filter:drop-shadow(2px 4px 20px rgba(123,11,225));
+ }
+ .box img{
+    width: 300px;
+padding: 10px;
+ }
+ .box p{
+    text-align: justify;
+    padding: 10px;
+ }
+ .box h5{ 
+    background-color: azure;
+    color: aqua;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    text-shadow:2px 3px 6px black;
+ }
+form{
+    width: 500px;
+    margin-left: 500px;
+}
+   .input
+{
+    width:100px;
+margin: 10px;
+}
+button{
+   background-color:  black;
+   cursor: pointer;
+   color: azure;
+}
+.cv{
+    background-color: black;
+    color: azure;
+    text-decoration: none;
+    margin-left: 500px;
+    margin-top: 100px;
+    padding: 5px;
+}
+style{
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: red; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:green; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: yellow; 
+  }
+
+}
